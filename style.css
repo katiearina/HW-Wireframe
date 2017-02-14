@@ -1,0 +1,68 @@
+body {
+	background: #777;
+	color: #ebebeb;
+	text-align: center;
+	font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+	font-size: 18px;
+}
+
+#wrap {
+	width: 960px;
+	margin: 0 auto 0 auto;
+}
+
+header, nav, footer {
+	position: relative;
+	width: 100%;
+	background: #ebebeb;
+	color: #777;
+	padding: 30px 0px 30px 0px;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+.clear {
+	/* I didn't know what you wanted us to do with class="clear",
+		since I just used clear:both on multiple elements in 
+		the above styling block. I imagine this might be helpful
+		if you had more complex elements that needed to be cleared,
+		but in this it just seemed to add unnecessary classes onto
+		other elements? */
+}
+
+#section {
+	position: relative;
+	float: left;
+	width: 495px;
+	background: #ebebeb;
+	color: #777;
+	padding: 30px 0px 30px 0px;
+	margin: 10px 0px 20px 0px;
+	overflow: auto;
+}
+
+aside {
+	float: right;
+	width: 445px;
+	height: 224px;
+	background: #ebebeb;
+	color: #777;
+	padding: 30px 0px 30px 0px;
+	margin: 10px 0px 20px 0px;
+}
+
+article {
+	clear: both;
+	margin: 10px;
+	background: #777;
+	color: #ebebeb;
+	padding: 15px 0px 15px 0px;
+}
+
+h1, p {
+	font-weight: bold;
+	margin: 10px;
+	padding: 15px 0px 15px 0px;
+	background: #ebebeb;
+	color: #777;
+}
